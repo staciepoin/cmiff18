@@ -18,11 +18,12 @@ header {
   position: relative;
   width: 100%;
   padding: 0 20px;
-  background: gray;
   z-index: 999;
   height: 100px;
   background: #272727;
   line-height: 100px;
+  position: absolute;
+  top: 0;
 }
 h1 {
   color: #fff;
@@ -53,47 +54,13 @@ h1 {
   color: #fff;
 }
 
-/*footer*/
+/*content*/
 
-footer {
-  background: #272727;
+body {
+  padding-top: 100px;
+}
+.container {
   width: 100%;
-  padding: 15px;
-  color: #aaa;
-  position: absolute;
-  bottom: 0;
-  text-transform: uppercase;
-}
-.fwrap {
-  margin: 0 auto;
-}
-.icons {
-  width: 100%;
-  display: block;
-  clear: both;
-  float: none;
-  text-align: center;
-  margin: 0 auto 10px;
-  font-size: 1rem;
-  color: #d3b24f
-}
-.icons a {
-  margin: 0 5px;
-  padding: 5px;
-  font-family: 'FontAwesome';
-  transition: .3s;
-}
-.icons a:hover {
-  color: #fff
-}
-.site-info {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  clear: both;
-}
-.site-info a {
-  color: #aaa;
-  font-size: .75rem;
-  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  background: red;
 }
